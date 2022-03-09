@@ -4,7 +4,7 @@ import { OrbitControls } from 'https://cdn.skypack.dev/pin/three@v0.138.2-mAMNcG
 //Loader
 const textureLoader = new THREE.TextureLoader()
 
-const normalTexture = textureLoader.load('../Textures/nmap.png')
+const normalTexture = textureLoader.load('../static/Textures/nmap.png')
 
 // Debug
 const gui = new dat.GUI()
