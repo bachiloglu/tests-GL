@@ -1,7 +1,6 @@
 import './style.css'
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js'
-import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js'
-import * as dat from 'dat.gui'
+import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/build/three.module.js';
+import { OrbitControls } from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/examples/jsm/controls/OrbitControls.js';
 
 //Loader
 const textureLoader = new THREE.TextureLoader()
