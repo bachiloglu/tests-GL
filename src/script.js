@@ -1,3 +1,4 @@
+import './style.css'
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js'
 import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js'
 import * as dat from 'dat.gui'
